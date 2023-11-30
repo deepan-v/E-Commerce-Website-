@@ -1,0 +1,41 @@
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    min-height: 90vh;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.ItemsFromShop{
+    width: 280px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.ForAdd{
+    background-color: black;
+    border: none;
+    color: aliceblue;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 17px;
+}
+.ParaItem{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0px;
+    align-items: center;
+    padding: 10px;
+}
+
+.ForAdd:hover{
+    cursor: pointer;
+}
+
+
+
+

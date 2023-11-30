@@ -1,0 +1,135 @@
+
+ body{
+    width: 100%;
+    min-height: 100vh;
+ }
+
+.CartAlign{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* border: 5px solid black; */
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.CartWrapper{
+    /* border: 1px solid red;  */
+    width: 400px;
+    display: flex;
+    box-shadow: 21px 15px 40px -18px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 21px 15px 40px -18px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 21px 15px 40px -18px rgba(0, 0, 0, 0.75);
+     border-radius: 5px;
+        
+
+}
+.ItemsImage{
+    /* height: 100%; */
+    border-radius: 4px 0px 0px 4px;
+}
+
+.ProductDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    gap: 10px;
+}
+.ReduceCartBtn{
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    padding: 0px 20px;
+    color: green;
+    border-radius:5px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.AddCartBtn{
+    background-color: white;
+    border: none;
+    font-size: 25px;
+    padding: 0px 20px;
+    color: red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Cartname{
+    border-bottom: 2px solid black;
+}
+
+
+@media Screen and(max-width:"400px"){
+    .ItemsImage{
+        width: 180px;
+    }
+     .CartWrapper{
+        flex-wrap: wrap ;
+     }
+}
+
+.TopDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ClearCartItems{
+    background: linear-gradient(to right, #e34a32, #e03333);
+    background-color: #ca1919;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-size: 15px;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: none;
+    padding: 10px 45px;
+    border: 0px solid #000;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px 0px #2D2D2D;
+    cursor: pointer;
+}
+
+
+
+.Continue-Shopping {
+    background: linear-gradient(to right, #80ca19, #33e091);
+    background-color: #80ca19;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-size: 15px;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 0px solid #000;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px 0px #2D2D2D;
+    cursor: pointer;
+}
+
+.Continue-Shopping:hover {
+    background: linear-gradient(to right, #92d054, #5ee39f);
+    background-color: #92d054;
+}
+.ClearCartItems:hover {
+    background: linear-gradient(to right, rgb(226, 159, 58), #f32f19);
+    background-color: #92d054;
+}
+
+.Continue-Shopping:active {
+    transform: scale(0.95);
+}
+
+
